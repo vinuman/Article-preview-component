@@ -9,6 +9,12 @@ function showShareOptions(){
    share.classList.toggle('show');
 }
 
+shareButton.addEventListener('click', showShareOptions);
+
+function showShareOptions(){
+   share.classList.toggle('show');
+}
+
 function hideShareOptions(){
     share.classList.remove('show');
 }
